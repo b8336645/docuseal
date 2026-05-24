@@ -1,4 +1,4 @@
-﻿zh-TW: &zh-TW
+zh-TW: &zh-TW
   language_en: 英文
   language_en-US: English (US)
   language_en-GB: English (UK)
@@ -48,884 +48,890 @@
   expirable_file_download_links: Expirable file download links
   sender_form_fields: Sender form fields
   default_parties: Default parties
-  authenticate_embedded_form_preview_with_token: Authenticate embedded form preview with token
-  stripe_integration: Stripe Integration
-  require_all_recipients: Require all recipients
-  stripe_account_has_been_connected: Stripe account has been connected.
-  re_connect_stripe: Re-connect Stripe
-  bcc_recipients: BCC recipients
-  resend_pending: Re-send pending
-  always_enforce_signing_order: Always enforce the signing order
-  create_templates_with_private_access_by_default: Create templates with private access by default
-  ensure_unique_recipients: Ensure unique recipients
-  edit_per_party: Edit per party
-  reply_to: Reply to
-  pending_by_me: Pending by me
-  partially_completed: Partially completed
-  require_phone_2fa_to_open: Require phone 2FA to open
-  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: The sender has requested two-factor authentication via a one-time password sent to your <b>%{phone}</b> phone number.
-  send_verification_code: Send verification code
-  code_has_been_resent: Code has been re-sent
-  invalid_code: Invalid code
-  signed: Signed
-  first_party: 'First Party'
-  remove_filter: Remove filter
+  party: 方
+  make_owner: 設為擁有者
+  use_direct_file_attachment_links_in_the_documents: 在文件中使用直接檔案附件連結
+  click_here_to_send_a_reset_password_email_html: '<label class="link" for="resend_password_button">點擊此處</label>以發送密碼重設郵件。'
+  edit_order: 編輯順序
+  expirable_file_download_links: 可過期的檔案下載連結
+  sender_form_fields: 寄件者表單欄位
+  default_parties: 預設方
+  authenticate_embedded_form_preview_with_token: 使用 Token 驗證內嵌表單預覽
+  stripe_integration: Stripe 整合
+  require_all_recipients: 要求所有收件人
+  stripe_account_has_been_connected: Stripe 帳號已連線。
+  re_connect_stripe: 重新連線 Stripe
+  bcc_recipients: BCC 收件人
+  resend_pending: 重新發送待處理
+  always_enforce_signing_order: 始終強制執行簽署順序
+  create_templates_with_private_access_by_default: 預設建立私人存取範本
+  ensure_unique_recipients: 確保收件人唯一
+  edit_per_party: 依各方編輯
+  reply_to: 回覆至
+  pending_by_me: 我待處理的項目
+  partially_completed: 部分已完成
+  require_phone_2fa_to_open: 開啟需電話雙重認證
+  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: 寄件人要求透過發送至您 <b>%{phone}</b> 電話號碼的一次性密碼進行雙重認證。
+  send_verification_code: 發送驗證碼
+  code_has_been_resent: 代碼已重新發送
+  invalid_code: 代碼無效
+  signed: 已簽署
+  first_party: '第一方'
+  remove_filter: 移除篩選器
   add: 新增
-  adding: Adding
+  adding: 新增中
   owner: 擁有者
-  select_user: Select user
-  team_member_permissions: Team member permissions
-  entire_team: Entire team
-  admin_only: Admin only
-  accessiable_by: Accessible by
-  team_access: Team access
-  document_download_filename_format: Document download filename format
-  docuseal_trusted_signature: DocuSeal Trusted Signature
-  hello_name: Hi %{name}
-  you_are_invited_to_product_name: You are invited to %{product_name}
-  you_have_been_invited_to_account_name_product_name_please_sign_up_using_the_link_below_: 'You have been invited to %{account_name} %{product_name}. Please sign up using the link below:'
-  sent_using_product_name_in_testing_mode_html: 'Sent using <a href="%{product_url}">%{product_name}</a> in testing mode'
-  sent_using_product_name_free_document_signing_html: 'Sent using <a href="%{product_url}">%{product_name}</a> free document signing.'
-  sent_with_docuseal_pro_html: 'Sent with <a href="%{product_url}">DocuSeal Pro</a>'
-  show_send_with_docuseal_pro_attribution_in_emails_html: Show "Sent with <span class="link">DocuSeal Pro</span>" attribution in emails
-  sign_documents_with_trusted_certificate_provided_by_docu_seal_your_documents_and_data_are_never_shared_with_docu_seal_p_d_f_checksum_is_provided_to_generate_a_trusted_signature: Sign documents with trusted certificate provided by DocuSeal. Your documents and data are never shared with DocuSeal. PDF checksum is provided to generate a trusted signature.
-  you_have_been_invited_to_submit_the_name_form: 'You have been invited to submit the "%{name}" form.'
-  you_have_been_invited_to_sign_the_name: 'You have been invited to sign the "%{name}".'
-  alternatively_you_can_review_and_download_your_copy_using_the_link_below: "Alternatively, you can review and download your copy using the link below:"
-  please_check_the_copy_of_your_name_in_the_email_attachments: 'Please check the copy of your "%{name}" in the email attachments.'
-  awaiting_completion_by_the_other_party: "Awaiting completion by the other party"
-  review_and_sign: Review and Sign
-  review_and_submit: Review and Submit
-  please_contact_us_by_replying_to_this_email_if_you_have_any_questions: "Please contact us by replying to this email if you have any questions."
-  submitter_invitation_sms_body_sign: '{account.name} has invited you to sign a document: {submitter.link}'
-  verification_code_sms_body: 'Verification code: {code}'
-  you_are_invited_to_submit_a_form: 'You are invited to submit a form'
-  you_are_invited_to_sign_a_document: 'You are invited to sign a document'
-  you_are_invited_to_sign_documents: 'You are invited to sign documents'
-  your_document_copy: 'Your document copy'
-  name_has_been_completed_by_submitters: '"%{name}" has been completed by %{submitters}.'
-  template_name_has_been_completed_by_submitters: '{template.name} has been completed by {submission.submitters}'
+  select_user: 選擇使用者
+  team_member_permissions: 團隊成員權限
+  entire_team: 整個團隊
+  admin_only: 僅限管理員
+  accessiable_by: 存取權限
+  team_access: 團隊存取
+  document_download_filename_format: 文件下載檔案名稱格式
+  docuseal_trusted_signature: DocuSeal 受信任簽名
+  hello_name: 您好 %{name}
+  you_are_invited_to_product_name: 您受邀使用 %{product_name}
+  you_have_been_invited_to_account_name_product_name_please_sign_up_using_the_link_below_: '您已受邀加入 %{account_name} %{product_name}。請使用下方連結進行註冊：'
+  sent_using_product_name_in_testing_mode_html: '使用 <a href="%{product_url}">%{product_name}</a> 在測試模式下發送'
+  sent_using_product_name_free_document_signing_html: '使用 <a href="%{product_url}">%{product_name}</a> 免費簽署文件。'
+  sent_with_docuseal_pro_html: '使用 <a href="%{product_url}">DocuSeal Pro</a> 發送'
+  show_send_with_docuseal_pro_attribution_in_emails_html: 在郵件中顯示「使用 DocuSeal Pro 發送」標記
+  sign_documents_with_trusted_certificate_provided_by_docu_seal_your_documents_and_data_are_never_shared_with_docu_seal_p_d_f_checksum_is_provided_to_generate_a_trusted_signature: 使用 DocuSeal 提供的受信任憑證簽署文件。您的文件與資料絕不會與 DocuSeal 分享。提供 PDF 校驗和以產生受信任的簽名。
+  you_have_been_invited_to_submit_the_name_form: '您已受邀提交「%{name}」表單。'
+  you_have_been_invited_to_sign_the_name: '您已受邀簽署「%{name}」。'
+  alternatively_you_can_review_and_download_your_copy_using_the_link_below: "或者，您可以使用下方連結檢閱並下載您的副本："
+  please_check_the_copy_of_your_name_in_the_email_attachments: '請檢查電子郵件附件中您的「%{name}」副本。'
+  awaiting_completion_by_the_other_party: "等待另一方完成"
+  review_and_sign: 檢閱並簽署
+  review_and_submit: 檢閱並提交
+  please_contact_us_by_replying_to_this_email_if_you_have_any_questions: "如有任何問題，請回覆此郵件與我們聯絡。"
+  submitter_invitation_sms_body_sign: '{account.name} 邀請您簽署文件：{submitter.link}'
+  verification_code_sms_body: '驗證碼：{code}'
+  you_are_invited_to_submit_a_form: '您受邀提交表單'
+  you_are_invited_to_sign_a_document: '您受邀簽署文件'
+  you_are_invited_to_sign_documents: '您受邀簽署文件'
+  your_document_copy: '您的文件副本'
+  name_has_been_completed_by_submitters: '「%{name}」已由 %{submitters} 完成。'
+  template_name_has_been_completed_by_submitters: '{template.name} 已由 {submission.submitters} 完成'
   submitter_invitation_email_sign_body: |
-    Hi there,
+    您好，
 
-    You have been invited to sign the "{template.name}".
+    您已受邀簽署「{template.name}」。
 
-    [Review and Sign]({submitter.link})
+    [檢閱並簽署]({submitter.link})
 
-    Please contact us by replying to this email if you have any questions.
+    如有任何問題，請回覆此郵件與我們聯絡。
 
-    Thanks,
+    謝謝，
     {account.name}
   submitter_completed_email_body: |
-    Hi,
+    您好，
 
-    "{template.name}" has been completed by {submission.submitters}
+    「{template.name}」已由 {submission.submitters} 完成
 
     {submission.link}
   submitter_documents_copy_email_body: |
-    Hi there,
+    您好，
 
-    Please check the copy of your "{template.name}" in the email attachments.
-    Alternatively, you can review and download your copy using the link below:
+    請檢查電子郵件附件中您的「{template.name}」副本。
+    或者，您可以使用下方連結檢閱並下載您的副本：
 
     [{template.name}]({documents.link})
 
-    Thanks,
+    謝謝，
     {account.name}
   view: 檢視
   email: 電子郵件
-  form_expired_at_html: 'Form expired on <span class="font-semibold">%{time}</span>'
-  verification_code_code: 'Verification code: %{code}'
-  digitally_signed_by: Digitally signed by
-  role: Role
-  reason: Reason
-  provide_your_email_to_start: Provide your email to start
-  provide_your_email: Provide your email
-  provide_your_name_to_start: Provide your name to start
-  provide_your_name: Provide your name
-  provide_your_phone_in_international_format_to_start: Provide your phone in international format to start
-  provide_your_phone_in_international_format: Provide your phone in international format
+  form_expired_at_html: '表單於 <span class="font-semibold">%{time}</span> 過期'
+  verification_code_code: '驗證碼：%{code}'
+  digitally_signed_by: 數位簽署人
+  role: 角色
+  reason: 原因
+  provide_your_email_to_start: 提供您的電子郵件以開始
+  provide_your_email: 提供您的電子郵件
+  provide_your_name_to_start: 提供您的姓名以開始
+  provide_your_name: 提供您的姓名
+  provide_your_phone_in_international_format_to_start: 以國際格式提供您的電話以開始
+  provide_your_phone_in_international_format: 以國際格式提供您的電話
   start: 開始
-  enforce_recipients_order: Enforce recipients order
-  starting: Starting
-  invited_by_html: 'Invited by <span class="font-semibold">%{name}</span>'
-  you_have_been_invited_to_submit_a_form: You have been invited to submit a form
-  signed_on_time: 'Signed on %{time}'
-  completed_on_time: 'Completed on %{time}'
-  document_has_been_signed_already: Document has been signed already
-  form_has_been_submitted_already: Form has been submitted already
-  send_copy_to_email: Send copy to Email
-  sending: Sending
-  resubmit: Resubmit
-  form_has_been_deleted_by_html: 'Form has been deleted by <span class="font-semibold">%{name}</span>.'
+  enforce_recipients_order: 強制執行收件人順序
+  starting: 開始中
+  invited_by_html: '由 <span class="font-semibold">%{name}</span> 邀請'
+  you_have_been_invited_to_submit_a_form: 您已受邀提交表單
+  signed_on_time: '於 %{time} 簽署'
+  completed_on_time: '於 %{time} 完成'
+  document_has_been_signed_already: 文件已簽署
+  form_has_been_submitted_already: 表單已提交
+  send_copy_to_email: 發送副本至電子郵件
+  sending: 發送中
+  resubmit: 重新提交
+  form_has_been_deleted_by_html: '表單已由 <span class="font-semibold">%{name}</span> 刪除。'
   or: 或
-  download_documents: Download documents
-  downloading: Downloading
+  download_documents: 下載文件
+  downloading: 下載中
   download: 下載
   page: 頁面
-  decline: Decline
-  declined: Declined
-  delegate: Delegate
-  enter_the_email_address_of_the_person_you_want_to_delegate_to: Enter the email address of the person you want to delegate to
-  decline_reason: Decline reason
-  provide_a_reason: Provide a reason
-  notify_the_sender_with_the_reason_you_declined: Notify the sender with the reason you declined
-  form_has_been_declined_on_html: 'Form has been declined on <span class="font-semibold">%{time}</span>'
-  document_has_been_delegated_on_html: 'Document has been delegated on <span class="font-semibold">%{time}</span>'
-  name_declined_by_submitter: '"%{name}" declined by %{submitter}'
-  name_declined_by_submitter_with_the_following_reason: '"%{name}" has been declined by %{submitter} with the following reason:'
-  completed_successfully: Completed Successfully
+  decline: 拒絕
+  declined: 已拒絕
+  delegate: 委派
+  enter_the_email_address_of_the_person_you_want_to_delegate_to: 輸入您想委派對象的電子郵件地址
+  decline_reason: 拒絕原因
+  provide_a_reason: 提供原因
+  notify_the_sender_with_the_reason_you_declined: 通知寄件人您拒絕的原因
+  form_has_been_declined_on_html: '表單於 <span class="font-semibold">%{time}</span> 被拒絕'
+  document_has_been_delegated_on_html: '文件於 <span class="font-semibold">%{time}</span> 被委派'
+  name_declined_by_submitter: '「%{name}」被 %{submitter} 拒絕'
+  name_declined_by_submitter_with_the_following_reason: '「%{name}」被 %{submitter} 拒絕，原因如下：'
+  completed_successfully: 順利完成
   password: 密碼
   sign_in: 登入
-  signing_in: Signing In
-  sign_in_with_microsoft: Sign in with Microsoft
-  sign_in_with_google: Sign in with Google
-  forgot_your_password_: Forgot your password?
-  create_free_account: Create free account
-  already_have_an_account: Already have an account?
-  first_name: First name
-  last_name: Last name
+  signing_in: 登入中
+  sign_in_with_microsoft: 使用 Microsoft 登入
+  sign_in_with_google: 使用 Google 登入
+  forgot_your_password_: 忘記密碼？
+  create_free_account: 建立免費帳號
+  already_have_an_account: 已經有帳號了？
+  first_name: 名字
+  last_name: 姓氏
   sign_up: 註冊
-  signing_up: Signing up
-  profile_details: Profile Details
-  sign_up_with_google: Sign up with Google
-  sign_up_with_microsoft: Sign up with Microsoft
-  by_creating_an_account_you_agree_to_our_html: 'By creating an account, you agree to our <a target="_blank" href="https://www.docuseal.com/privacy">Privacy Policy</a> and <a target="_blank" href="https://www.docuseal.com/terms">Terms of Service</a>.'
-  enter_email_to_continue: Enter email to continue
+  signing_up: 註冊中
+  profile_details: 個人檔案詳細資訊
+  sign_up_with_google: 使用 Google 註冊
+  sign_up_with_microsoft: 使用 Microsoft 註冊
+  by_creating_an_account_you_agree_to_our_html: '建立帳號即代表您同意我們的 <a target="_blank" href="https://www.docuseal.com/privacy">隱私權政策</a> 與 <a target="_blank" href="https://www.docuseal.com/terms">服務條款</a>。'
+  enter_email_to_continue: 輸入電子郵件以繼續
   account: 帳號
-  preferences: Preferences
-  company_name: Company name
-  time_zone: Time zone
+  preferences: 偏好設定
+  company_name: 公司名稱
+  time_zone: 時區
   language: 語言
-  app_url: App URL
+  app_url: 應用程式網址
   update: 更新
-  updating: Updating
-  force_2fa_with_authenticator_app: Force 2FA with Authenticator App
-  add_signature_id_to_the_documents: Add signature ID to the documents
-  require_signing_reason: Require signing reason
-  allow_typed_text_signatures: Allow typed text signatures
-  allow_to_resubmit_completed_forms: Allow to resubmit completed forms
-  allow_to_decline_documents: Allow to decline documents
-  allow_to_delegate_documents: Allow to delegate documents
-  remember_and_pre_fill_signatures: Remember and pre-fill signatures
-  require_authentication_for_file_download_links: Require authentication for file download links
-  combine_completed_documents_and_audit_log: Combine completed documents and Audit Log
-  salesforce_integration: Salesforce Integration
-  salesforce_has_been_connected: Salesforce has been connected.
-  connect_salesforce_account_to_integrate_with_docuseal: Connect Salesforce account to integrate with DocuSeal
-  re_connect_salesforce: Re-connect Salesforce
-  connect_salesforce: Connect Salesforce
-  danger_zone: Danger Zone
-  delete_my_account: Delete my account
-  you_are_scheduling_your_account_for_deletion_after_deletion_your_data_will_be_permanently_removed_and_cannot_be_recovered_click_ok_if_you_would_like_to_continue: "You are scheduling your account for deletion. After deletion, your data will be permanently removed and cannot be recovered.\n\nClick OK if you would like to continue."
-  account_information_has_been_updated: Account information has been updated.
-  should_be_a_valid_url: should be a valid URL
-  your_account_will_be_permanently_deleted_within_2_months_please_contact_us_if_you_want_to_keep_your_account: Your account will be permanently deleted within 2 months. Please contact us if you want to keep your account.
-  test_mode: Test mode
-  copy: Copy
-  copied: Copied
-  rotate: Rotate
-  remove_existing_api_token_and_generated_a_new_one_are_you_sure_: Remove existing API token and generate a new one. Are you sure?
-  request_signature_multiple_submitters_with_default_values: Request signature, multiple submitters with default values
-  request_signature_single_submitter: Request signature, single submitter
-  template_details: Template details
-  open_full_api_reference: Open Full API Reference
-  api_token_has_been_updated: API token has been updated.
-  change_your_password: Change your password
-  new_password: New password
-  minimum_password_length_characters_minimum: '%{minimum_password_length} characters minimum'
-  confirm_new_password: Confirm new password
-  change_my_password: Change my password
-  changing_password: Changing password
-  reset_password: Reset password
-  resetting_password: Resetting password
-  sign_in_with_name_account: 'Sign in with %{name} account'
-  two_factor_code_from_authenticator_app: Two-Factor Code from Authenticator App
-  sign_up_in_docuseal_console_to_upgrade_on_premises_app_is_completely_standalone_console_is_used_only_to_manage_your_license: Sign up in DocuSeal Console to upgrade. On-premises app is completely standalone, Console is used only to manage your license.
-  send_from_email: Send from Email
-  optional: optional
+  updating: 更新中
+  force_2fa_with_authenticator_app: 強制使用驗證器應用程式進行雙重認證
+  add_signature_id_to_the_documents: 將簽名 ID 新增至文件
+  require_signing_reason: 要求簽署原因
+  allow_typed_text_signatures: 允許鍵入文字簽名
+  allow_to_resubmit_completed_forms: 允許重新提交已完成的表單
+  allow_to_decline_documents: 允許拒絕文件
+  allow_to_delegate_documents: 允許委派文件
+  remember_and_pre_fill_signatures: 記住並預填簽名
+  require_authentication_for_file_download_links: 要求下載檔案連結需驗證
+  combine_completed_documents_and_audit_log: 合併已完成文件與稽核紀錄
+  salesforce_integration: Salesforce 整合
+  salesforce_has_been_connected: Salesforce 已連線。
+  connect_salesforce_account_to_integrate_with_docuseal: 連線 Salesforce 帳號以與 DocuSeal 整合
+  re_connect_salesforce: 重新連線 Salesforce
+  connect_salesforce: 連線 Salesforce
+  danger_zone: 危險區域
+  delete_my_account: 刪除我的帳號
+  you_are_scheduling_your_account_for_deletion_after_deletion_your_data_will_be_permanently_removed_and_cannot_be_recovered_click_ok_if_you_would_like_to_continue: "您正在排程刪除帳號。刪除後，您的資料將會永久移除且無法復原。\n\n若要繼續，請點擊「確定」。"
+  account_information_has_been_updated: 帳號資訊已更新。
+  should_be_a_valid_url: 應為有效網址
+  your_account_will_be_permanently_deleted_within_2_months_please_contact_us_if_you_want_to_keep_your_account: 您的帳號將在 2 個月內永久刪除。如果您想保留帳號，請聯絡我們。
+  test_mode: 測試模式
+  copy: 複製
+  copied: 已複製
+  rotate: 旋轉
+  remove_existing_api_token_and_generated_a_new_one_are_you_sure_: 移除現有的 API Token 並產生新 Token。確定要這樣做嗎？
+  request_signature_multiple_submitters_with_default_values: 要求簽名，多重提交者預設值
+  request_signature_single_submitter: 要求簽名，單一提交者
+  template_details: 範本詳細資訊
+  open_full_api_reference: 開啟完整 API 參考
+  api_token_has_been_updated: API Token 已更新。
+  change_your_password: 更改密碼
+  new_password: 新密碼
+  minimum_password_length_characters_minimum: '至少 %{minimum_password_length} 個字元'
+  confirm_new_password: 確認新密碼
+  change_my_password: 更改密碼
+  changing_password: 更改密碼中
+  reset_password: 重設密碼
+  resetting_password: 重設密碼中
+  sign_in_with_name_account: '使用 %{name} 帳號登入'
+  two_factor_code_from_authenticator_app: 來自驗證器應用程式的雙重認證代碼
+  sign_up_in_docuseal_console_to_upgrade_on_premises_app_is_completely_standalone_console_is_used_only_to_manage_your_license: 在 DocuSeal 主控台註冊以升級。地端部署應用程式完全獨立，主控台僅用於管理您的授權。
+  send_from_email: 從電子郵件發送
+  optional: 選填
   save: 儲存
-  saving: Saving
-  changes_have_been_saved: Changes have been saved.
-  unlock_with_docuseal_pro: Unlock with DocuSeal Pro
-  use_your_own_certificates_to_sign_and_verify_pdf_files: Use your own certificates to sign and verify PDF files.
-  upload_certificate: Upload Certificate
+  saving: 儲存中
+  changes_have_been_saved: 變更已儲存。
+  unlock_with_docuseal_pro: 使用 DocuSeal Pro 解鎖
+  use_your_own_certificates_to_sign_and_verify_pdf_files: 使用您自己的憑證來簽署並驗證 PDF 檔案。
+  upload_certificate: 上傳憑證
   name: 名稱
   file: 檔案
-  use_a_valid_der_p12_or_pfx_file: Use a valid .der, .p12 or .pfx file.
+  use_a_valid_der_p12_or_pfx_file: 使用有效的 .der、.p12 或 .pfx 檔案。
   submit: 提交
-  submitting: Submitting
-  pdf_signature: PDF Signature
-  upload_signed_pdf_file_to_validate_its_signature_: 'Upload signed PDF file to validate its signature:'
-  analyzing: Analyzing
-  verify_signed_pdf: Verify Signed PDF
-  click_to_upload_or_drag_and_drop_html: 'Click to upload or drag and drop'
-  click_to_upload_or_drag_and_drop_files_html: '<span class="font-medium">Click to upload</span> or drag and drop files'
-  signing_certificates: Signing Certificates
-  upload_cert: Upload Cert
-  valid_to: Valid To
+  submitting: 提交中
+  pdf_signature: PDF 簽名
+  upload_signed_pdf_file_to_validate_its_signature_: '上傳已簽署的 PDF 檔案以驗證其簽名：'
+  analyzing: 分析中
+  verify_signed_pdf: 驗證已簽署 PDF
+  click_to_upload_or_drag_and_drop_html: '點擊上傳或拖放'
+  click_to_upload_or_drag_and_drop_files_html: '<span class="font-medium">點擊上傳</span>或拖放檔案'
+  signing_certificates: 簽署憑證
+  upload_cert: 上傳憑證
+  valid_to: 有效期限至
   status: 狀態
-  make_default: Make Default
+  make_default: 設為預設
   remove: 移除
-  removing: Removing
+  removing: 移除中
   delete: 刪除
-  default: Default
-  are_you_sure_: Are you sure?
-  timestamp_server: Timestamp Server
-  timeserver_url: Timeserver URL
-  url_of_the_trusted_rfc_3161_timeserver_to_be_used_to_generate_timestamp_signatures: URL of the trusted RFC 3161 timeserver to be used to generate timestamp signatures.
-  apply_multiple_pdf_digital_signatures_in_the_document_per_each_signer: Apply multiple PDF digital signatures in the document per each signer
-  remove_pdf_form_fillable_fields_from_the_signed_pdf_flatten_form: Remove PDF form fillable fields from the signed PDF (flatten form)
-  certificate_has_been_successfully_added: Certificate has been successfully added.
-  default_certificate_has_been_selected: Default certificate has been selected.
-  certificate_has_been_removed: Certificate has been removed.
-  already_exists: already exists.
-  welcome_to_product_name: 'Welcome to %{product_name}'
-  set_password: Set password
-  confirm_password: Confirm new password
-  save_password_and_sign_in: Save password and Sign in
-  use_an_authenticator_mobile_app_like_google_authenticator_or_1password_to_scan_the_qr_code_below: Use an authenticator mobile app like Google Authenticator or 1Password to scan the QR code below.
-  remove_2fa: Remove 2FA
-  setup_2fa: Setup 2FA
-  2fa_has_been_configured: 2FA has been configured.
-  code_is_invalid: Code is invalid
-  2fa_has_been_removed: 2FA has been removed.
-  2fa_has_been_set_up_already: 2FA has been set up already.
-  developer_newsletters: Developer Newsletters
-  skip: Skip
-  email_notifications: Email Notifications
-  receive_notification_emails_on_completed_submission: Receive notification emails on completed submission
-  completed_documents_notification_bcc_address: Completed documents notification BCC address
-  sign_request_email_reminders: Sign Request Email Reminders
-  send_automatic_email_reminders_to_your_recipients: Send automatic email reminders to your recipients.
-  first_reminder_in: First reminder in
-  second_reminder_in: Second reminder in
-  third_reminder_in: Third reminder in
-  learn_more: Learn More
-  unable_to_save: Unable to save.
-  invalid_timeserver: Invalid Timeserver
-  email_templates: Email Templates
-  signature_request_email: Signature request email
-  signature_request_reminder_email: Signature request reminder email
-  signature_request_sms: Signature Request SMS
-  verification_code_sms: Verification Code SMS
-  completed_notification_email: Completed notification email
-  company_logo: Company Logo
-  submission_form: Submission Form
-  completed_form_message: Completed Form Message
-  completed_form_redirect_button: Completed Form Redirect Button
-  documents_copy_email: Documents copy email
-  form_custom_css: Form Custom CSS
-  subject: Subject
-  body: Body
-  text_message: Text message
-  title: Title
-  button_title: Button title
-  button_url: Button URL
-  upload_logo: Upload Logo
-  show_confetti_on_successful_completion: Show confetti on successful completion
-  attach_audit_log_pdf: Attach audit log PDF
-  attach_documents: Attach documents
-  settings_have_been_saved: Settings have been saved.
-  display_your_company_name_and_logo_when_signing_documents: Display your company name and logo when signing documents.
-  profile: Profile
-  signature: Signature
-  update_signature: Update Signature
-  unable_to_save_signature: Unable to save signature.
-  signature_has_been_saved: Signature has been saved.
-  signature_has_been_removed: Signature has been removed.
-  initials: Initials
-  update_initials: Update Initials
-  unable_to_save_initials: Unable to save initials.
-  initials_has_been_saved: Initials have been saved.
-  initials_has_been_removed: Initials have been removed.
-  change_password: Change Password
-  two_factor_authentication: Two-Factor Authentication
-  2fa_is_not_configured: 2FA is not configured
-  set_up_2fa: Set up 2FA
-  contact_information_has_been_update: Contact information has been updated.
-  password_has_been_changed: Password has been changed.
-  email_integration: Email Integration
-  send_via_connected_email: Send via connected email
-  activate_with_docuseal_pro: Activate with DocuSeal Pro
-  send_signature_request_to_your_recipients_directly_from_your_email: Send signature request to your recipients directly from your email
-  connect_gmail: Connect Gmail
-  re_connect_gmail: Re-connect Gmail
-  connect_microsoft: Connect Microsoft
-  re_connect_microsoft: Re-connect Microsoft
-  gmail_has_been_connected: Gmail has been connected.
-  microsoft_account_has_been_connected: Microsoft Account has been connected.
-  but_not_activated: but not activated
-  email_has_been_sent: Email has been sent.
-  email_has_been_sent_already: Email has been sent already.
-  initial_setup: Initial Setup
-  demo_environment: Demo Environment
+  default: 預設
+  are_you_sure_: 確定嗎？
+  timestamp_server: 時間戳記伺服器
+  timeserver_url: 時間伺服器網址
+  url_of_the_trusted_rfc_3161_timeserver_to_be_used_to_generate_timestamp_signatures: 用於產生時間戳記簽名的受信任 RFC 3161 時間伺服器網址。
+  apply_multiple_pdf_digital_signatures_in_the_document_per_each_signer: 為每位簽署人在文件中應用多個 PDF 數位簽名
+  remove_pdf_form_fillable_fields_from_the_signed_pdf_flatten_form: 從已簽署的 PDF 中移除 PDF 可填寫欄位（平面化表單）
+  certificate_has_been_successfully_added: 憑證已順利新增。
+  default_certificate_has_been_selected: 已選取預設憑證。
+  certificate_has_been_removed: 憑證已移除。
+  already_exists: 已經存在。
+  welcome_to_product_name: '歡迎使用 %{product_name}'
+  set_password: 設定密碼
+  confirm_password: 確認新密碼
+  save_password_and_sign_in: 儲存密碼並登入
+  use_an_authenticator_mobile_app_like_google_authenticator_or_1password_to_scan_the_qr_code_below: 使用驗證器行動應用程式（如 Google Authenticator 或 1Password）掃描下方的 QR 碼。
+  remove_2fa: 移除雙重認證
+  setup_2fa: 設定雙重認證
+  2fa_has_been_configured: 雙重認證已設定。
+  code_is_invalid: 代碼無效
+  2fa_has_been_removed: 雙重認證已移除。
+  2fa_has_been_set_up_already: 雙重認證已設定完成。
+  developer_newsletters: 開發者電子報
+  skip: 跳過
+  email_notifications: 電子郵件通知
+  receive_notification_emails_on_completed_submission: 在提交完成時接收通知郵件
+  completed_documents_notification_bcc_address: 已完成文件的通知 BCC 地址
+  sign_request_email_reminders: 簽署請求郵件提醒
+  send_automatic_email_reminders_to_your_recipients: 發送自動郵件提醒給您的收件人。
+  first_reminder_in: 第一次提醒於
+  second_reminder_in: 第二次提醒於
+  third_reminder_in: 第三次提醒於
+  learn_more: 了解更多
+  unable_to_save: 無法儲存。
+  invalid_timeserver: 無效的時間伺服器
+  email_templates: 郵件範本
+  signature_request_email: 簽署請求郵件
+  signature_request_reminder_email: 簽署請求提醒郵件
+  signature_request_sms: 簽署請求簡訊
+  verification_code_sms: 驗證碼簡訊
+  completed_notification_email: 完成通知郵件
+  company_logo: 公司商標
+  submission_form: 提交表單
+  completed_form_message: 完成表單訊息
+  completed_form_redirect_button: 完成表單重新導向按鈕
+  documents_copy_email: 文件副本郵件
+  form_custom_css: 表單自訂 CSS
+  subject: 主旨
+  body: 內文
+  text_message: 文字訊息
+  title: 標題
+  button_title: 按鈕標題
+  button_url: 按鈕網址
+  upload_logo: 上傳商標
+  show_confetti_on_successful_completion: 在順利完成時顯示彩帶
+  attach_audit_log_pdf: 附加稽核紀錄 PDF
+  attach_documents: 附加文件
+  settings_have_been_saved: 設定已儲存。
+  display_your_company_name_and_logo_when_signing_documents: 簽署文件時顯示您的公司名稱與商標。
+  profile: 個人檔案
+  signature: 簽名
+  update_signature: 更新簽名
+  unable_to_save_signature: 無法儲存簽名。
+  signature_has_been_saved: 簽名已儲存。
+  signature_has_been_removed: 簽名已移除。
+  initials: 縮寫
+  update_initials: 更新縮寫
+  unable_to_save_initials: 無法儲存縮寫。
+  initials_has_been_saved: 縮寫已儲存。
+  initials_has_been_removed: 縮寫已移除。
+  change_password: 更改密碼
+  two_factor_authentication: 雙重認證
+  2fa_is_not_configured: 雙重認證尚未設定
+  set_up_2fa: 設定雙重認證
+  contact_information_has_been_update: 聯絡資訊已更新。
+  password_has_been_changed: 密碼已更改。
+  email_integration: 電子郵件整合
+  send_via_connected_email: 透過已連線郵件發送
+  activate_with_docuseal_pro: 使用 DocuSeal Pro 啟用
+  send_signature_request_to_your_recipients_directly_from_your_email: 直接從您的電子郵件發送簽署請求給收件人
+  connect_gmail: 連線 Gmail
+  re_connect_gmail: 重新連線 Gmail
+  connect_microsoft: 連線 Microsoft
+  re_connect_microsoft: 重新連線 Microsoft
+  gmail_has_been_connected: Gmail 已連線。
+  microsoft_account_has_been_connected: Microsoft 帳號已連線。
+  but_not_activated: 但未啟用
+  email_has_been_sent: 郵件已發送。
+  email_has_been_sent_already: 郵件已發送。
+  initial_setup: 初始設定
+  demo_environment: 示範環境
   close: 關閉
   upgrade: 升級
   settings: 設定
-  console: Console
-  verify_pdf: Verify PDF
+  console: 控制台
+  verify_pdf: 驗證 PDF
   sign_out: 登出
-  page_number: 'Page %{number}'
-  powered_by: Powered by
-  qr_code: QR Code
+  page_number: '第 %{number} 頁'
+  powered_by: 技術提供
+  qr_code: QR 碼
   print: 列印
-  scan_the_qr_code_above_with_your_phone_camera_to_open_and_sign_this_document: Scan the QR code above with your phone camera to open and sign this document.
-  count_documents_signed_with_html: '<b>%{count}</b> documents signed with'
-  storage: Storage
-  notifications: Notifications
-  e_signature: E-Signature
-  personalization: Personalization
-  users: Users
-  plans: Plans
-  new: New
-  embedding: Embedding
-  background_jobs: Background Jobs
-  need_help_ask_a_question_: 'Need help? Ask a question:'
-  exit: Exit
-  leave: Leave
-  impersonated_as: Impersonated as
-  ask_ai: Ask AI
-  ai_assistant: AI Assistant
-  discord_community: Discord Community
-  integrations: Integrations
-  teams: Teams
-  tenants: Tenants
-  send_signature_requests_via_sms: Send signature requests via SMS
-  twilio_settings: Twilio Settings
-  webhook_settings: Webhook Settings
-  sending_sms: Sending SMS
-  from: From
-  account_sid: Account SID
-  send_sms_via_webhook: Send SMS via webhook
-  webhook_integration_allows_to_send_sms_using_any_provider: Webhook integration allows you to send SMS using any provider
-  test: Test
-  single_sign_on_with_saml_2_0: Single Sign On with SAML 2.0
-  force_sso_disable_login_with_email_and_password: Force SSO (disable login with email and password)
-  for_aws_s3_compatible_apis_like_minio: For AWS S3 compatible APIs like Minio.
-  store_all_files_on_disk: Store all files on disk
-  no_configs_are_needed_but_make_sure_your_disk_is_persistent: No configs are needed but make sure your disk is persistent
-  not_suitable_for_heroku_and_other_paas: Not suitable for Heroku and other PaaS
-  bulk_send_from_excel_xlsx_or_csv: Bulk send from Excel XLSX or CSV
-  add_new: Add New
-  add_recipients: Add Recipients
-  add_new_recipients: Add New Recipients
-  add_recipients_html: <span>Add <span class="hidden md:inline">Recipients</span></span>
-  type_emails_here: Type emails here
-  or_embed_on_your_website: Or embed on your website
-  phone: Phone
-  send_emails: Send emails
-  edit_message: Edit message
-  smtp_not_configured: SMTP not Configured
-  configure_smtp_settings_in_order_to_send_emails_: 'Configure SMTP settings in order to send emails:'
-  go_to_smtp_settings: Go to SMTP settings
-  save_as_default_template_message: Save as default template message
-  re_send_sms: Re-send SMS
-  send_sms: Send SMS
-  preserve_order: Preserve order
-  when_checked_notifications_will_be_sent_to_the_second_party_once_the_form_is_completed_by_the_previous_party_uncheck_this_option_to_send_notifications_to_all_parties_simultaneously_right_away: When checked, notifications will be sent to the second party once the form is completed by the previous party. Uncheck this option to send notifications to all parties simultaneously right away.
-  upgrade_to_send_unlimited_signature_requests: Upgrade to send unlimited signature requests
-  add_without_sending: Add without sending
-  upgade_now: Upgrade Now
-  send_signature_request_emails_without_limits_with_docuseal_pro: Send signature request emails without limits with DocuSeal Pro
-  count_emails_used: '%{count} emails used'
-  has_been_connected: has been connected
-  sms_not_configured: SMS not Configured
-  configure_sms_settings_in_order_to_send_text_messages_: 'Configure SMS settings in order to send text messages:'
-  go_to_sms_settings: Go to SMS settings
-  back_to_active: Back to Active
-  submissions: Submissions
-  templates: Templates
-  document_templates_html: <span class="hidden md:inline">Document</span> Templates
-  archived: Archived
+  scan_the_qr_code_above_with_your_phone_camera_to_open_and_sign_this_document: 使用您的手機相機掃描上方的 QR 碼以開啟並簽署此文件。
+  count_documents_signed_with_html: '<b>%{count}</b> 份文件簽署於'
+  storage: 儲存空間
+  notifications: 通知
+  e_signature: 電子簽名
+  personalization: 個人化設定
+  users: 使用者
+  plans: 方案
+  new: 新增
+  embedding: 內嵌
+  background_jobs: 背景工作
+  need_help_ask_a_question_: '需要協助嗎？提問：'
+  exit: 離開
+  leave: 離開
+  impersonated_as: 模擬身份為
+  ask_ai: 詢問 AI
+  ai_assistant: AI 助理
+  discord_community: Discord 社群
+  integrations: 整合
+  teams: 團隊
+  tenants: 租戶
+  send_signature_requests_via_sms: 透過簡訊發送簽署請求
+  twilio_settings: Twilio 設定
+  webhook_settings: Webhook 設定
+  sending_sms: 發送簡訊中
+  from: 寄件者
+  account_sid: 帳號 SID
+  send_sms_via_webhook: 透過 Webhook 發送簡訊
+  webhook_integration_allows_to_send_sms_using_any_provider: Webhook 整合允許您使用任何供應商發送簡訊
+  test: 測試
+  single_sign_on_with_saml_2_0: 單一登入 (SAML 2.0)
+  force_sso_disable_login_with_email_and_password: 強制 SSO（停用電子郵件與密碼登入）
+  for_aws_s3_compatible_apis_like_minio: 用於 AWS S3 相容 API（如 Minio）。
+  store_all_files_on_disk: 儲存所有檔案於磁碟
+  no_configs_are_needed_but_make_sure_your_disk_is_persistent: 無需設定，但請確保您的磁碟具有持久性
+  not_suitable_for_heroku_and_other_paas: 不適合 Heroku 與其他 PaaS
+  bulk_send_from_excel_xlsx_or_csv: 從 Excel XLSX 或 CSV 批次發送
+  add_new: 新增
+  add_recipients: 新增收件人
+  add_new_recipients: 新增收件人
+  add_recipients_html: <span>新增 <span class="hidden md:inline">收件人</span></span>
+  type_emails_here: 在此輸入電子郵件
+  or_embed_on_your_website: 或內嵌至您的網站
+  phone: 電話
+  send_emails: 發送郵件
+  edit_message: 編輯訊息
+  smtp_not_configured: SMTP 未設定
+  configure_smtp_settings_in_order_to_send_emails_: '設定 SMTP 以發送郵件：'
+  go_to_smtp_settings: 前往 SMTP 設定
+  save_as_default_template_message: 儲存為預設範本訊息
+  re_send_sms: 重新發送簡訊
+  send_sms: 發送簡訊
+  preserve_order: 保留順序
+  when_checked_notifications_will_be_sent_to_the_second_party_once_the_form_is_completed_by_the_previous_party_uncheck_this_option_to_send_notifications_to_all_parties_simultaneously_right_away: 勾選後，當前一方完成表單後，將會向第二方發送通知。取消勾選此選項可立即同時向所有方發送通知。
+  upgrade_to_send_unlimited_signature_requests: 升級以發送無限的簽署請求
+  add_without_sending: 新增而不發送
+  upgade_now: 立即升級
+  send_signature_request_emails_without_limits_with_docuseal_pro: 使用 DocuSeal Pro 無限制發送簽署請求郵件
+  count_emails_used: '已使用 %{count} 封郵件'
+  has_been_connected: 已連線
+  sms_not_configured: 簡訊未設定
+  configure_sms_settings_in_order_to_send_text_messages_: '設定簡訊以發送文字訊息：'
+  go_to_sms_settings: 前往簡訊設定
+  back_to_active: 返回已啟用
+  submissions: 提交紀錄
+  templates: 範本
+  document_templates_html: <span class="hidden md:inline">文件</span>範本
+  archived: 已封存
   search: 搜尋
-  submissions_not_found: Submissions not Found
+  submissions_not_found: 找不到提交紀錄
   create: 建立
-  view_archived: View Archived
+  view_archived: 檢視封存項目
   all: 全部
   pending: 待處理
   completed: 已完成
-  primarily_opened_with_microsoft_excel_other_options_include_google_sheets_libreoffice_calc_and_openoffice_calc: Primarily opened with Microsoft Excel. Other options include Google Sheets, LibreOffice Calc, and OpenOffice Calc.
-  can_be_opened_with_microsoft_excel_google_sheets_or_any_text_editor_like_notepad: Can be opened with Microsoft Excel, Google Sheets, or any text editor like Notepad.
-  draw_signature: Draw Signature
-  clear: Clear
-  signature_uploaded: Signature Uploaded
-  submission_deletion_is_irreversible_and_will_permanently_remove_all_associated_signed_documents_with_it_are_you_sure_: 'Submission deletion is irreversible and will permanently remove all associated signed documents with it. Are you sure?'
-  return_back_to_your_desktop_device_to_complete_the_form_or_continue_on_mobile_html: 'Return back to your desktop device to complete the form or <a class="link" href="%{link}">continue on mobile</a>'
-  template_deletion_is_irreversible_and_will_permanently_remove_all_associated_signed_documents_with_it_are_you_sure_: Template deletion is irreversible and will permanently remove all associated signed documents with it. Are you sure?
-  rename_folder: Rename Folder
-  folder_name: Folder Name
-  rename: Rename
-  home: Home
-  templates_not_found: Templates not Found
-  upload_new_document: Upload New Document
-  uploading: Uploading
-  expired: Expired
-  sign_now: Sign now
-  archive: Archive
-  archiving: Archiving
-  restore: Restore
-  restoring: Restoring
-  clone: Clone
+  primarily_opened_with_microsoft_excel_other_options_include_google_sheets_libreoffice_calc_and_openoffice_calc: 主要由 Microsoft Excel 開啟。其他選項包含 Google Sheets、LibreOffice Calc 與 OpenOffice Calc。
+  can_be_opened_with_microsoft_excel_google_sheets_or_any_text_editor_like_notepad: 可由 Microsoft Excel、Google Sheets 或任何文字編輯器（如 Notepad）開啟。
+  draw_signature: 繪製簽名
+  clear: 清除
+  signature_uploaded: 簽名已上傳
+  submission_deletion_is_irreversible_and_will_permanently_remove_all_associated_signed_documents_with_it_are_you_sure_: '刪除提交紀錄無法復原，且會一併永久移除所有相關聯的已簽署文件。確定嗎？'
+  return_back_to_your_desktop_device_to_complete_the_form_or_continue_on_mobile_html: '請返回您的桌機裝置完成表單，或 <a class="link" href="%{link}">在行動裝置上繼續</a>'
+  template_deletion_is_irreversible_and_will_permanently_remove_all_associated_signed_documents_with_it_are_you_sure_: 刪除範本無法復原，且會一併永久移除所有相關聯的已簽署文件。確定嗎？
+  rename_folder: 重新命名資料夾
+  folder_name: 資料夾名稱
+  rename: 重新命名
+  home: 首頁
+  templates_not_found: 找不到範本
+  upload_new_document: 上傳新文件
+  uploading: 上傳中
+  expired: 已過期
+  sign_now: 立即簽署
+  archive: 封存
+  archiving: 封存中
+  restore: 還原
+  restoring: 還原中
+  clone: 複製
   edit: 編輯
-  move: Move
-  moving: moving
+  move: 移動
+  moving: 移動中
   preview: 預覽
   upload: 上傳
-  clone_template: Clone Template
-  new_document_template: New Document Template
-  document_name: Document Name
-  change_folder: Change Folder
-  shared: shared
-  export: Export
-  there_are_no_submissions: There are no Submissions
-  send_an_invitation_to_fill_and_complete_the_form: Send an invitation to fill and complete the form
-  send_to_recipients: Send to Recipients
-  sign_it_yourself: Sign it Yourself
-  api_and_embedding: API and Embedding
-  template_id: Template ID
-  embedding_url: Embedding URL
-  share_template_with_test_mode: Share template with Test mode
-  share_template_with_all_tenants: Share template with all Tenants
-  use_following_placeholders_text_: 'Use following placeholders text:'
-  users_count_total_users_count_pro_users_limit_was_reached_to_invite_additional_users_please_purchase_more_pro_user_seats_via_the_manage_plan_button: '%{users_count}/%{total_users_count} Pro users limit was reached. To invite additional users, please purchase more Pro user seats via the "Manage plan" button.'
-  move_into_folder: Move Into Folder
-  new_folder_name: New Folder Name
-  new_subfolder_name: New Subfolder Name
-  change_parent_folder: Change Parent Folder
-  folder: Folder
-  create_a_new_folder: Create a New Folder
-  exit_preview: Exit Preview
-  general: General
-  recipients: Recipients
-  form_preferences: Form preferences
-  redirect_on_completion_url: Redirect on completion URL
-  completion_message: Completion message
-  email_subject: Email subject
-  email_body: Email body
-  attach_audit_log_pdf_to_the_email: Attach Audit Log PDF to the email
-  send_emails_automatically_on_completion: Send emails automatically on completion
-  attach_documents_to_the_email: Attach documents to the email
-  not_specified: Not specified
-  submission_requester: Submission requester
-  specified_email: Specified email
-  invite_by_name: 'Invite by %{name}'
-  invite_via_form_field: Invite via Form Field
-  same_as_name: 'Same as %{name}'
-  default_email: Default Email
-  processing: Processing
-  upload_initials: Upload Initials
-  draw: Draw
-  upload_signature: Upload Signature
-  integration: Integration
+  clone_template: 複製範本
+  new_document_template: 新文件範本
+  document_name: 文件名稱
+  change_folder: 變更資料夾
+  shared: 已共用
+  export: 匯出
+  there_are_no_submissions: 沒有提交紀錄
+  send_an_invitation_to_fill_and_complete_the_form: 發送邀請以填寫並完成表單
+  send_to_recipients: 發送給收件人
+  sign_it_yourself: 自己簽署
+  api_and_embedding: API 與內嵌
+  template_id: 範本 ID
+  embedding_url: 內嵌網址
+  share_template_with_test_mode: 以測試模式共用範本
+  share_template_with_all_tenants: 與所有租戶共用範本
+  use_following_placeholders_text_: '使用下列佔位符文字：'
+  users_count_total_users_count_pro_users_limit_was_reached_to_invite_additional_users_please_purchase_more_pro_user_seats_via_the_manage_plan_button: '%{users_count}/%{total_users_count} 已達專業版使用者上限。若要邀請更多使用者，請透過「管理方案」按鈕購買更多專業版席位。'
+  move_into_folder: 移動至資料夾
+  new_folder_name: 新資料夾名稱
+  new_subfolder_name: 新子資料夾名稱
+  change_parent_folder: 變更父資料夾
+  folder: 資料夾
+  create_a_new_folder: 建立新資料夾
+  exit_preview: 離開預覽
+  general: 一般
+  recipients: 收件人
+  form_preferences: 表單偏好設定
+  redirect_on_completion_url: 完成後重新導向網址
+  completion_message: 完成訊息
+  email_subject: 郵件主旨
+  email_body: 郵件內文
+  attach_audit_log_pdf_to_the_email: 將稽核紀錄 PDF 附加至郵件
+  send_emails_automatically_on_completion: 完成時自動發送郵件
+  attach_documents_to_the_email: 將文件附加至郵件
+  not_specified: 未指定
+  submission_requester: 提交請求者
+  specified_email: 指定電子郵件
+  invite_by_name: '以 %{name} 邀請'
+  invite_via_form_field: 透過表單欄位邀請
+  same_as_name: '與 %{name} 相同'
+  default_email: 預設電子郵件
+  processing: 處理中
+  upload_initials: 上傳縮寫
+  draw: 繪製
+  upload_signature: 上傳簽名
+  integration: 整合
   admin: 管理員
-  tenant_admin: Tenant Admin
-  editor: Editor
-  viewer: Viewer
-  member: Member
-  agent: Agent
-  superadmin: Superadmin
-  edit_user: Edit User
-  new_user: New User
-  unarchive: Unarchive
-  last_session: Last session
-  unlock_more_user_roles_with_docuseal_pro: Unlock more user roles with DocuSeal Pro.
-  view_active: View Active
-  team_account: Team account
-  team_accounts: Team Accounts
-  tenant_account: Tenant account
-  tenant_accounts: Tenant Accounts
-  impersonate: Impersonate
-  loading: Loading
-  documents: Documents
-  accounts: Accounts
-  edit_account: Edit Account
-  new_team: New Team
-  new_tenant: New Tenant
-  remove_team: Remove Team
-  remove_tenant: Remove Tenant
-  replace: Replace
-  allow_tenant_admins_to_invite_new_users: Allow tenant admins to invite new users
-  manage_multiple_teams: Manage Multiple Teams
-  api_key: API Key
-  logo: Logo
-  back: Back
-  add_secret: Add Secret
-  edit_secret: Edit Secret
-  submission_example_payload: Submission example payload
-  there_are_no_signatures: There are no signatures
-  signed_with_trusted_certificate: Signed with trusted certificate
-  signed_with_external_certificate: Signed with external certificate
-  setup_2fa_to_continue: Setup 2FA to continue.
-  create_a_new_account: Create a new account.
-  you_are_already_signed_in: You are already signed in.
-  please_sign_in: Please sign in.
-  not_found: Not found
-  new_recipients_have_been_added: New recipients have been added.
-  submission_has_been_removed: Submission has been removed.
-  submission_has_been_archived: Submission has been archived.
-  form_has_been_completed_already: Form has been completed already.
-  form_has_been_archived: Form has been archived.
-  form_has_been_expired: Form has been expired.
-  form_has_been_declined: Form has been declined.
-  file_is_missing: File is missing
-  folder_name_has_been_updated: Folder name has been updated.
-  unable_to_rename_folder: Unable to rename folder.
-  template_has_been_removed: Template has been removed.
-  template_has_been_archived: Template has been archived.
-  template_has_been_cloned: Template has been cloned.
-  document_template_has_been_moved: Document template has been moved.
-  unable_to_move_template_into_folder: Unable to move template into folder.
-  template_has_been_unarchived: Template has been unarchived.
-  submission_has_been_unarchived: Submission has been unarchived.
-  unable_to_update_file: Unable to upload file.
-  user_has_been_invited: User has been invited.
-  unable_to_update_user: Unable to update user.
-  user_has_been_updated: User has been updated.
-  unable_to_remove_user: Unable to remove user.
-  user_has_been_removed: User has been removed.
-  invalid_pdf: Invalid PDF
-  webhook_secret_has_been_saved: Webhook Secret has been saved.
-  webhook_url_has_been_saved: Webhook URL has been saved.
-  webhook_request_has_been_sent: Webhook request has been sent.
-  webhook_url_has_been_updated: Webhook URL has been updated.
-  webhook_url_has_been_deleted: Webhook URL has been deleted.
-  unable_to_resend_webhook_request: Unable to resend webhook request.
-  new_webhook: New Webhook
-  delete_webhook: Delete webhook
-  security: Security
-  webhook_security: Webhook Security
-  secret: Secret
+  tenant_admin: 租戶管理員
+  editor: 編輯者
+  viewer: 檢視者
+  member: 成員
+  agent: 代理人
+  superadmin: 超級管理員
+  edit_user: 編輯使用者
+  new_user: 新增使用者
+  unarchive: 取消封存
+  last_session: 上次連線
+  unlock_more_user_roles_with_docuseal_pro: 使用 DocuSeal Pro 解鎖更多使用者角色。
+  view_active: 檢視已啟用
+  team_account: 團隊帳號
+  team_accounts: 團隊帳號
+  tenant_account: 租戶帳號
+  tenant_accounts: 租戶帳號
+  impersonate: 模擬身份
+  loading: 載入中
+  documents: 文件
+  accounts: 帳號
+  edit_account: 編輯帳號
+  new_team: 新增團隊
+  new_tenant: 新增租戶
+  remove_team: 移除團隊
+  remove_tenant: 移除租戶
+  replace: 取代
+  allow_tenant_admins_to_invite_new_users: 允許租戶管理員邀請新使用者
+  manage_multiple_teams: 管理多個團隊
+  api_key: API 金鑰
+  logo: 商標
+  back: 返回
+  add_secret: 新增密鑰
+  edit_secret: 編輯密鑰
+  submission_example_payload: 提交範例 Payload
+  there_are_no_signatures: 沒有簽名
+  signed_with_trusted_certificate: 以受信任憑證簽署
+  signed_with_external_certificate: 以外部憑證簽署
+  setup_2fa_to_continue: 設定雙重認證以繼續。
+  create_a_new_account: 建立新帳號。
+  you_are_already_signed_in: 您已登入。
+  please_sign_in: 請登入。
+  not_found: 找不到
+  new_recipients_have_been_added: 已新增收件人。
+  submission_has_been_removed: 提交紀錄已移除。
+  submission_has_been_archived: 提交紀錄已封存。
+  form_has_been_completed_already: 表單已完成。
+  form_has_been_archived: 表單已封存。
+  form_has_been_expired: 表單已過期。
+  form_has_been_declined: 表單已拒絕。
+  file_is_missing: 檔案遺失
+  folder_name_has_been_updated: 資料夾名稱已更新。
+  unable_to_rename_folder: 無法重新命名資料夾。
+  template_has_been_removed: 範本已移除。
+  template_has_been_archived: 範本已封存。
+  template_has_been_cloned: 範本已複製。
+  document_template_has_been_moved: 文件範本已移動。
+  unable_to_move_template_into_folder: 無法將範本移動至資料夾。
+  template_has_been_unarchived: 範本已取消封存。
+  submission_has_been_unarchived: 提交紀錄已取消封存。
+  unable_to_update_file: 無法上傳檔案。
+  user_has_been_invited: 使用者已受邀。
+  unable_to_update_user: 無法更新使用者。
+  user_has_been_updated: 使用者已更新。
+  unable_to_remove_user: 無法移除使用者。
+  user_has_been_removed: 使用者已移除。
+  invalid_pdf: 無效的 PDF
+  webhook_secret_has_been_saved: Webhook 密鑰已儲存。
+  webhook_url_has_been_saved: Webhook 網址已儲存。
+  webhook_request_has_been_sent: Webhook 請求已發送。
+  webhook_url_has_been_updated: Webhook 網址已更新。
+  webhook_url_has_been_deleted: Webhook 網址已刪除。
+  unable_to_resend_webhook_request: 無法重新發送 Webhook 請求。
+  new_webhook: 新增 Webhook
+  delete_webhook: 刪除 Webhook
+  security: 安全性
+  webhook_security: Webhook 安全性
+  secret: 密鑰
   hmac: HMAC
-  hmac_signing_secret: HMAC Signing Secret
-  hmac_signature_header_hint_html: 'Each request is signed with the %{header} header: &lt;timestamp&gt;.&lt;sha256&gt;.'
-  count_submissions_have_been_created: '%{count} submissions have been created.'
-  sms_length_cant_be_longer_than_120_bytes: SMS length can't be longer than 120 bytes
-  connected_successfully: Connected successfully.
-  user_nameid_not_found: 'User %{nameid} not found.'
-  sso_settings_have_been_updated: SSO settings have been updated.
-  sms_has_been_sent: SMS has been sent.
-  account_has_been_created: Account has been created.
-  account_has_been_updated: Account has been updated.
-  account_has_been_removed: Account has been removed.
-  logo_has_been_uploaded: Logo has been uploaded.
-  invalid_file_type: Invalid file type
-  upload_file: Upload file
-  upgrade_your_plan_to_invite_more_users_contact_email: 'Upgrade your plan to invite more users (contact %{email}).'
-  contact_your_admin_email_to_invite_more_users: 'Contact your admin %{email} to invite more users.'
-  contact_your_administrator_to_add_new_users: Contact your administrator to add new users
-  one_hour: 1 hour
-  two_hours: 2 hours
-  four_hours: 4 hours
-  eight_hours: 8 hours
-  twelve_hours: 12 hours
-  twenty_four_hours: 24 hours
-  two_days: 2 days
-  four_days: 4 days
-  eight_days: 8 days
-  fifteen_days: 15 days
-  twenty_one_days: 21 days
-  thirty_days: 30 days
+  hmac_signing_secret: HMAC 簽署密鑰
+  hmac_signature_header_hint_html: '每個請求皆以 %{header} 標頭簽署：&lt;timestamp&gt;.&lt;sha256&gt;。'
+  count_submissions_have_been_created: '已建立 %{count} 筆提交紀錄。'
+  sms_length_cant_be_longer_than_120_bytes: 簡訊長度不得超過 120 位元組
+  connected_successfully: 連線成功。
+  user_nameid_not_found: '找不到使用者 %{nameid}。'
+  sso_settings_have_been_updated: 單一登入設定已更新。
+  sms_has_been_sent: 簡訊已發送。
+  account_has_been_created: 帳號已建立。
+  account_has_been_updated: 帳號已更新。
+  account_has_been_removed: 帳號已移除。
+  logo_has_been_uploaded: 商標已上傳。
+  invalid_file_type: 無效的檔案類型
+  upload_file: 上傳檔案
+  upgrade_your_plan_to_invite_more_users_contact_email: '升級您的方案以邀請更多使用者（聯絡 %{email}）。'
+  contact_your_admin_email_to_invite_more_users: '聯絡您的管理員 %{email} 以邀請更多使用者。'
+  contact_your_administrator_to_add_new_users: 聯絡您的管理員以新增使用者
+  one_hour: 1 小時
+  two_hours: 2 小時
+  four_hours: 4 小時
+  eight_hours: 8 小時
+  twelve_hours: 12 小時
+  twenty_four_hours: 24 小時
+  two_days: 2 天
+  four_days: 4 天
+  eight_days: 8 天
+  fifteen_days: 15 天
+  twenty_one_days: 21 天
+  thirty_days: 30 天
   free: 免費
-  unlimited_documents_storage: Unlimited documents storage
-  users_management: Users management
-  ten_field_types: 10 field types
-  multiple_signers: Multiple signers
-  automatic_esignature: Automatic eSignature
-  ten_signature_request_emails_per_month: 10 signature request emails per month
-  unlimited_sign_yourself: Unlimited sign yourself
-  free_developer_testing_sandbox: Free developer testing sandbox
-  continue_with_free_basic: Continue with Free Basic
-  unlimited_signature_request_emails: Unlimited signature request emails
-  your_company_logo: Your company logo
-  connect_own_email_address: Connect own email address
-  personalize_email_content: Personalize email content
-  automated_reminders: Automated reminders
-  bulk_send_from_spreadsheet: Bulk send from spreadsheet
-  identify_verification_via_sms: Identity verification via SMS
-  start_with_pro: Start with Pro
-  user_month: user / month
-  developer_sandbox: Developer Sandbox.
-  upgrade_to_start_using_in_production_html: '<a href="%{url}" target="_blank" class="link font-semibold">Upgrade</a> to start using in Production.'
-  download_combined_pdf: Download combined PDF
-  audit_log: Audit Log
-  signers: Signers
-  not_invited_yet:  Not invited yet
-  not_completed_yet: Not completed yet
-  declined_on_time: 'Declined on %{time}'
-  expire_on_time: 'Expire on %{time}'
-  sign_in_person: Sign In-person
-  create_a_new_template_document_form_or_submit_the_existing_one_html: <a href="%{new_template_link}" data-turbo-frame="modal" class="inline underline font-medium">Create a new template</a> document form or <a href="%{start_form_link}" target="_blank" class="inline underline font-medium">submit the existing one</a>
-  send_email_copy_with_completed_documents_to_a_specified_bcc_address: Send email copy with completed documents to a specified BCC address.
-  re_send_email: Re-send Email
-  re_send_emails: Re-send Emails
-  are_you_sure_you_want_to_re_send_email_to_n_recipients: Are you sure you want to re-send the invitation email to %{count} recipients?
-  emails_have_been_sent_to_n_recipients: Emails have been sent to %{count} recipients.
-  send_email: Send Email
-  copy_share_link: Copy Share Link
-  copied_to_clipboard: Copied to Clipboard
-  link: Link
-  via_email: via Email
-  via_phone: via Phone
-  detailed: Detailed
-  upload_list: Upload List
-  creating: Creating
-  open_source_documents_software: open source documents software
-  copy_link: Copy Link
-  opened: Opened
-  sent: Sent
-  awaiting: Awaiting
-  document_id: Document ID
-  envelope_id: Envelope ID
-  event_log: Event Log
-  verify: Verify
-  testing_log_not_for_production_use: Testing Log - Not for Production Use
-  original_sha256: Original SHA256
-  result_sha256: Result SHA256
-  generated_at: Generated at
-  email_verification: Email verification
-  phone_verification: Phone verification
-  session_id: Session ID
-  option: Option
-  text_field: Text Field
-  signature_field: Signature Field
-  initials_field: Initials Field
-  date_field: Date Field
-  number_field: Number Field
-  image_field: Image Field
-  file_field: File Field
-  select_field: Select Field
-  checkbox_field: Checkbox Field
-  multiple_field: Multiple Select Field
-  radio_field: Radio Group Field
-  cells_field: Cells Field
-  stamp_field: Stamp Field
-  payment_field: Payment Field
-  phone_field: Phone Field
-  verification_field: Identity Verification
-  knowledge_based_authentication: Knowledge Based Authentication
+  unlimited_documents_storage: 無限制文件儲存空間
+  users_management: 使用者管理
+  ten_field_types: 10 種欄位類型
+  multiple_signers: 多重簽署人
+  automatic_esignature: 自動電子簽名
+  ten_signature_request_emails_per_month: 每月 10 封簽署請求郵件
+  unlimited_sign_yourself: 自己簽署無限制
+  free_developer_testing_sandbox: 免費開發者測試沙盒
+  continue_with_free_basic: 繼續使用免費基礎版
+  unlimited_signature_request_emails: 無限制簽署請求郵件
+  your_company_logo: 您的公司商標
+  connect_own_email_address: 連線您自己的電子郵件地址
+  personalize_email_content: 個人化郵件內容
+  automated_reminders: 自動提醒
+  bulk_send_from_spreadsheet: 從試算表批次發送
+  identify_verification_via_sms: 透過簡訊進行身份驗證
+  start_with_pro: 以專業版開始
+  user_month: 使用者 / 月
+  developer_sandbox: 開發者沙盒
+  upgrade_to_start_using_in_production_html: '<a href="%{url}" target="_blank" class="link font-semibold">升級</a>以開始在生產環境中使用。'
+  download_combined_pdf: 下載合併 PDF
+  audit_log: 稽核紀錄
+  signers: 簽署人
+  not_invited_yet:  尚未受邀
+  not_completed_yet: 尚未完成
+  declined_on_time: '於 %{time} 拒絕'
+  expire_on_time: '於 %{time} 過期'
+  sign_in_person: 現場簽署
+  create_a_new_template_document_form_or_submit_the_existing_one_html: <a href="%{new_template_link}" data-turbo-frame="modal" class="inline underline font-medium">建立新範本</a>文件表單或<a href="%{start_form_link}" target="_blank" class="inline underline font-medium">提交現有表單</a>
+  send_email_copy_with_completed_documents_to_a_specified_bcc_address: 將已完成文件及郵件副本發送至指定 BCC 地址。
+  re_send_email: 重新發送郵件
+  re_send_emails: 重新發送郵件
+  are_you_sure_you_want_to_re_send_email_to_n_recipients: 您確定要重新發送邀請郵件給 %{count} 位收件人嗎？
+  emails_have_been_sent_to_n_recipients: 郵件已發送給 %{count} 位收件人。
+  send_email: 發送郵件
+  copy_share_link: 複製共用連結
+  copied_to_clipboard: 已複製到剪貼簿
+  link: 連結
+  via_email: 透過電子郵件
+  via_phone: 透過電話
+  detailed: 詳細
+  upload_list: 上傳清單
+  creating: 建立中
+  open_source_documents_software: 開源文件軟體
+  copy_link: 複製連結
+  opened: 已開啟
+  sent: 已發送
+  awaiting: 等待中
+  document_id: 文件 ID
+  envelope_id: 信封 ID
+  event_log: 事件紀錄
+  verify: 驗證
+  testing_log_not_for_production_use: 測試紀錄 - 不適用於生產環境
+  original_sha256: 原始 SHA256
+  result_sha256: 結果 SHA256
+  generated_at: 產生於
+  email_verification: 電子郵件驗證
+  phone_verification: 電話驗證
+  session_id: 工作階段 ID
+  option: 選項
+  text_field: 文字欄位
+  signature_field: 簽名欄位
+  initials_field: 縮寫欄位
+  date_field: 日期欄位
+  number_field: 數字欄位
+  image_field: 圖片欄位
+  file_field: 檔案欄位
+  select_field: 下拉選單
+  checkbox_field: 核取方塊
+  multiple_field: 多選欄位
+  radio_field: 單選欄位
+  cells_field: 儲存格欄位
+  stamp_field: 印章欄位
+  payment_field: 付款欄位
+  phone_field: 電話欄位
+  verification_field: 身份驗證
+  knowledge_based_authentication: 知識基礎驗證 (KBA)
   kba_field: KBA
-  passed: Passed
-  identity_verification: Identity verification
-  paid_price: 'Paid %{price}'
-  verified: Verified
-  unverified: Unverified
-  document: Document
-  completed_at: Completed at
-  edit_recipient: Edit Recipient
-  update_recipient: Update Recipient
-  use_international_format_1xxx_: 'Use international format: +1xxx...'
-  submitter_cannot_be_updated: Submitter cannot be updated.
-  at_least_one_field_must_be_filled: At least one field must be filled.
-  archived_users: Archived Users
-  embedding_users: Embedding Users
-  view_embedding_users: View Embedding Users
-  key: Key
-  value: Value
-  webhook_secret: Webhook Secret
-  author: Author
-  to: To
-  created_at: Created at
-  apply: Apply
-  applying: Applying
+  passed: 通過
+  identity_verification: 身份驗證
+  paid_price: '已付款 %{price}'
+  verified: 已驗證
+  unverified: 未驗證
+  document: 文件
+  completed_at: 完成於
+  edit_recipient: 編輯收件人
+  update_recipient: 更新收件人
+  use_international_format_1xxx_: '使用國際格式：+1xxx...'
+  submitter_cannot_be_updated: 無法更新提交者。
+  at_least_one_field_must_be_filled: 必須填寫至少一個欄位。
+  archived_users: 已封存使用者
+  embedding_users: 內嵌使用者
+  view_embedding_users: 檢視內嵌使用者
+  key: 金鑰
+  value: 值
+  webhook_secret: Webhook 密鑰
+  author: 作者
+  to: 至
+  created_at: 建立於
+  apply: 應用
+  applying: 應用中
   today: 今天
-  yesterday: Yesterday
-  this_week: This week
-  last_week: Last week
-  this_month: This month
-  last_month: Last month
-  this_year: This year
-  policy_links: Policy Links
-  markdown_content_e_g: Markdown content, e.g.
-  privacy_policy: Privacy Policy
-  the_code_has_been_sent_to_your_email: The code has been sent to your email.
-  enter_the_verification_code_from_your_email: Enter the verification code from your email.
-  too_many_attempts: Too many attempts.
-  verification_code: Verification Code
-  resend_code: Resend Code
-  verify_new_sign_in: Verify new sign in
-  use_otp_code_to_sign_in_or_click_the_link_below_html: 'Use <b>%{code}</b> code to sign in or click the link below:'
-  complete_sign_in: Complete Sign In
-  please_reply_to_this_email_if_you_dont_recognize_this_sign_in_attempt: Please reply to this email if you don't recognize this sign in attempt.
-  docuseal_support: DocuSeal Support
-  use_the_edit_form_to_move_it_to_another_team: Use the edit form to move it to another team.
-  too_many_sms_attempts_try_again_in_a_few_seconds: Too many SMS attempts. Try again in a few seconds.
-  number_phone_number_is_invalid: "+%{number} phone number is invalid"
-  make_com_integration: Make.com Integration
-  zapier_integration: Zapier Integration
-  seamlessly_automate_your_document_signing_process_with_make_com: Seamlessly automate your document signing process with Make.com.
-  find_suitable_zapier_templates_to_automate_your_workflow: Find suitable Zapier templates to automate your workflow.
-  get_started: Get started
-  click_here_to_learn_more_about_user_roles_and_permissions_html: '<a href="https://www.docuseal.com/resources/manage-users-and-roles" class="link" rel="noopener noreferrer nofollow" target="_blank">Click here</a> to learn more about user roles and permissions.'
-  count_10_signature_request_emails_sent_this_month_upgrade_to_pro_to_send_unlimited_signature_request_email: '%{count} / 10 signature request emails sent this month. Upgrade to Pro to send unlimited signature request emails.'
-  test_mode_emails_limit_will_be_reset_within_24_hours: Test mode emails limit will be reset within 24 hours.
-  on_a_scale_of_1_to_10_how_satisfied_are_you_with_the_docuseal_product_: On a scale of 1 to 10, how satisfied are you with the DocuSeal product?
-  tell_us_more_about_your_experience: Tell us more about your experience
-  extremely_dissatisfied: Extremely Dissatisfied
-  extremely_satisfied: Extremely Satisfied
-  your_pro_plan_payment_is_overdue: Your Pro plan payment is overdue.
-  click_here_to_update_your_payment_details_and_clear_the_invoice_to_ensure_uninterrupted_service_html: <a href="%{url}" class="link">Click here</a> to update your payment details and clear the invoice to ensure uninterrupted service.
-  overdue_payment: Overdue Payment
-  your_pro_plan_has_been_suspended_due_to_unpaid_invoices_you_can_update_your_payment_details_to_settle_the_invoice_and_continue_using_docuseal_or_cancel_your_subscription: Your Pro Plan has been suspended due to unpaid invoices. You can update your payment details to settle the invoice and continue using DocuSeal or cancel your subscription.
-  manage_subscription: Manage Subscription
-  submission_created_by_email_html: '<b>Submission created</b> by %{email}'
-  submission_created_by_email_via_source_html: '<b>Submission created</b> by %{email} via %{source}'
-  submission_created_via_source_html: '<b>Submission created</b> via %{source}'
-  pro_user_seats_used: Pro user seats used
-  manage_plan: Manage plan
-  this_submission_has_multiple_signers_which_prevents_the_use_of_a_sharing_link_html: This submission has multiple signers, which prevents the use of a sharing link as it's unclear which signer is responsible for specific fields. To resolve this, follow this <a href="https://www.docuseal.com/resources/pre-filling-recipients" class="link font-bold" rel="noopener noreferrer nofollow" target="_blank">guide</a> to define the default signer details.
-  welcome_to_docuseal: Welcome to DocuSeal
-  start_a_quick_tour_to_learn_how_to_create_and_send_your_first_document: Start a quick tour to learn how to create and send your first document
-  start_tour: Start Tour
-  name_a_z: Name A-Z
-  recently_used: Recently used
-  newest_first: Newest first
-  none: None
-  default_expiration: Default expiration
-  specified_date: Specified date
-  one_day: 1 day
-  two_days: 2 days
-  three_days: 3 days
-  four_days: 4 days
-  five_days: 5 days
-  six_days: 6 days
-  seven_days: 7 days
-  eight_days: 8 days
-  nine_days: 9 days
-  ten_days: 10 days
-  two_weeks: 2 weeks
-  three_weeks: 3 weeks
-  four_weeks: 4 weeks
-  one_month: 1 month
-  two_months: 2 months
-  three_months: 3 months
-  eu_data_residency: EU data residency
-  please_enter_your_email_address_associated_with_the_completed_submission: Please enter your email address associated with the completed submission.
-  esignature_disclosure: eSignature Disclosure
-  share_link: Share link
-  enable_shared_link: Enable shared link
-  share_link_is_currently_disabled: Share link is currently disabled
-  dynamic_template_with_variables_cannot_be_used_via_shared_link: Dynamic template with variables can't be used via a shared link
-  select_data_residency: Select data residency
-  account_name_has_invited_you_to_fill_and_sign_documents_online_effortlessly_with_a_secure_fast_and_user_friendly_digital_document_signing_solution: '%{account_name} has invited you to fill and sign documents online effortlessly with a secure, fast, and user-friendly digital document signing solution.'
-  review_or_download_completed_documents_fill_and_sign_documents_online_effortlessly_with_a_secure_fast_and_user_friendly_digital_document_signing_solution: Review or download completed documents. Fill and sign documents online effortlessly with a secure, fast, and user-friendly digital document signing solution.
-  link_form_fields: Link form fields
-  at_least_one_field_must_be_displayed_in_the_form: At least one field must be displayed in the form.
-  this_template_has_multiple_parties_which_prevents_the_use_of_a_sharing_link: This template has multiple parties, which prevents the use of a shared link as it's unclear which party is responsible for specific fields. To resolve this, define the default party details.
-  events_log: Events Log
-  succeeded: Succeeded
-  failed: Failed
-  there_are_no_events: There are no events
-  resend: Resend
-  next_attempt_in_time_in_words: Next attempt in %{time_in_words}
-  request_email_otp_verification_with_shared_link: Request email OTP verification with shared link
-  sms_rate_limit_exceeded: SMS rate limit exceeded
-  invalid_phone_number: Invalid phone number
-  please_contact_the_requester_to_specify_your_phone_number_for_two_factor_authentication: Please contact the requester to specify your phone number for two-factor authentication.
-  we_sent_a_one_time_verification_code_to_your_email_address_please_enter_the_code_below_to_continue: We've sent a one-time verification code to your email address. Please enter the code below to continue.
-  re_send_code: Re-send Code
-  email_verification: Email verification
-  your_verification_code_to_access_the_name: 'Your verification code to access the "%{name}":'
-  please_reply_to_this_email_if_you_didnt_request_this: Please reply to this email if you didn't request this.
-  advanced_settings: Advanced settings
-  text: Text
-  code: Code
-  custom_html_emails: Custom HTML emails
-  connect_your_email_to_send_html_emails: Connect your email to send HTML emails
-  connect_your_email_or_outlook_account_or_add_smtp_settings_to_send_custom_html_emails: Connect your Gmail or Outlook account or add SMTP settings to send custom HTML emails.
-  connect_gmail_or_outlook: Connect Gmail or Outlook
-  connect_your_email_to_bulk_send: Connect your email to bulk send
-  connect_your_email_or_outlook_account_or_add_smtp_settings_to_bulk_send: Connect your Gmail or Outlook account or add SMTP settings to bulk send.
-  are_you_sure_you_want_to_add_recipients_without_sending_to_send_emails_it_requires_to_connect_gmail_or_outlook: Are you sure you want to add recipients without sending? To send emails you need to connect Gmail or Outlook.
-  template_name_has_been_completed_by_submitters_html: '"<strong>{template.name}</strong>" has been completed by <strong>{submission.submitters}</strong>'
-  please_check_the_copy_of_your_template_name_in_the_email_attachments_html: 'Please check the copy of your "<strong>{template.name}</strong>" in the email attachments.'
-  you_have_been_invited_to_sign_the_template_name_html: 'You have been invited to sign the "<strong>{template.name}</strong>".'
-  reveal_api_key: Reveal API Key
-  enter_your_password_to_reveal_the_api_key: Enter your password to reveal the API key
-  wrong_password: Wrong password.
-  current_password: Current password
-  dont_remember_your_current_password_click_here_to_reset_it_html: 'Don''t remember your current password? <label class="link" for="resend_password_button">Click here</label> to reset it.'
-  an_email_with_password_reset_instructions_has_been_sent: An email with password reset instructions has been sent.
-  api_key_access_code: API key access code
-  use_otp_code_to_access_the_api_key_html: Use <b>%{code}</b> code to access the API key.
-  please_reply_to_this_email_if_you_dont_recognize_this_request: Please reply to this email if you don't recognize this request.
-  your_user_account_has_been_archived_contact_your_administrator_to_restore_access_to_your_account: Your user account has been archived. Contact your administrator to restore access to your account.
-  your_email_could_not_be_reached_this_may_happen_if_there_was_a_typo_in_your_address_or_if_your_mailbox_is_not_available_please_contact_support_email_to_log_in: Your email could not be reached. This may happen if there was a typo in your address or if your mailbox is not available. Please contact support@docuseal.com to log in.
-  efficient_search_with_search_index: Efficient search with search index
-  reindex: Reindex
-  build_search_index: Build Search Index
-  require_two_factor_authentication_2fa_with_an_authenticator_app_e_g_google_authenticator_authy_all_users_signing_documents_must_pass_the_second_factor_verification_using_a_secure_code_in_addition_to_their_password: Require two-factor authentication (2FA) with an authenticator app (e.g., Google Authenticator, Authy). All users signing documents must pass the second factor verification using a secure code in addition to their password.
-  add_a_unique_signature_id_and_timestamp_to_each_signature_for_audit_and_traceability_purposes_along_with_the_timestamp_part_of_docuseals_21_cfr_part_11_compliance_settings: "Add a unique Signature ID and timestamp to each signature for audit and traceability purposes along with the timestamp. Part of DocuSeal's 21 CFR Part 11 compliance settings."
-  require_signer_to_provide_a_reason_for_signing_before_completing_their_signature_e_g_approvals_certifications_part_of_docuseals_21_cfr_part_11_compliance_settings: "Require signers to provide a reason for signing before completing their signature (e.g., approvals, certifications). Part of DocuSeal's 21 CFR Part 11 compliance settings."
-  allow_signers_to_create_signatures_by_typing_their_name_instead_of_drawing_or_uploading_one: Allow signers to create signatures by typing their name instead of drawing or uploading one.
-  allow_signers_to_resubmit_forms_after_completion_useful_when_corrections_or_multiple_submissions_are_needed: Allow signers to resubmit forms after completion, useful when corrections or multiple submissions are needed.
-  allow_recipients_to_decline_signing_a_document_the_decline_reason_notification_will_be_sent_to_the_signature_requester: Allow recipients to decline signing a document. The decline reason notification will be sent to the signature requester.
-  allow_recipients_to_delegate_documents: Allow recipients to delegate documents to a different person via email. This can be useful when the original recipient needs to pass the document to the authorized signer.
-  save_a_users_signature_and_automatically_pre_fill_it_in_future_signing_sessions: "Save a user's signature and automatically pre-fill it in future signing sessions."
-  make_document_download_links_expire_after_40_minutes_to_prevent_long_term_access_and_enhance_security: Make document download links expire after 40 minutes to prevent long-term access and enhance security.
-  require_authentication_with_user_login_or_api_key_to_access_the_document_download_links: Require authentication with user login or API key to access the document download links.
-  combine_signed_documents_and_the_audit_log_into_a_single_pdf_file_for_easier_recordkeeping_and_compliance: Combine signed documents and the Audit Log into a single PDF file for easier recordkeeping and compliance.
-  require_a_jwt_authorization_to_preview_embedded_forms_ensuring_only_authorized_users_can_view_them: Require a JWT authorization to preview embedded forms, ensuring only authorized users can view them.
-  make_all_newly_created_templates_private_to_their_creator_by_default: Make all newly created templates private to their creator by default.
-  make_the_recipients_signing_order_always_enforced_so_that_the_second_signer_can_start_signing_their_part_only_after_the_first_signer_has_completed_signing: Make the recipients signing order always enforced, so that the second signer can start signing their part only after the first signer has completed signing.
-  the_file_is_missing_make_sure_you_have_access_to_it_on_google_drive: The file is missing. Make sure you have access to it on Google Drive.
-  connect_google_drive: Connect Google Drive
-  google_drive_has_been_connected: Google Drive has been connected
-  unable_to_identify_reset_your_password_to_sign_in: Unable to identify. Reset your password to sign in.
-  desktop: Desktop
-  mobile: Mobile
-  tablet: Tablet
-  reset_default: Reset default
-  send_signature_request_email: Send signature request email
-  last_3_months: Last 3 months
-  last_6_months: Last 6 months
-  last_year: Last year
-  all_time: All time
-  everyone: Everyone
-  daily: Daily
-  weekly: Weekly
-  monthly: Monthly
+  yesterday: 昨天
+  this_week: 本週
+  last_week: 上週
+  this_month: 本月
+  last_month: 上月
+  this_year: 今年
+  policy_links: 政策連結
+  markdown_content_e_g: Markdown 內容，例如：
+  privacy_policy: 隱私權政策
+  the_code_has_been_sent_to_your_email: 代碼已發送至您的電子郵件。
+  enter_the_verification_code_from_your_email: 輸入來自您電子郵件的驗證碼。
+  too_many_attempts: 嘗試次數過多。
+  verification_code: 驗證碼
+  resend_code: 重新發送代碼
+  verify_new_sign_in: 驗證新登入
+  use_otp_code_to_sign_in_or_click_the_link_below_html: '使用 <b>%{code}</b> 代碼登入或點擊下方連結：'
+  complete_sign_in: 完成登入
+  please_reply_to_this_email_if_you_dont_recognize_this_sign_in_attempt: 若您不認識此登入嘗試，請回覆此郵件。
+  docuseal_support: DocuSeal 支援
+  use_the_edit_form_to_move_it_to_another_team: 使用編輯表單將其移動至另一個團隊。
+  too_many_sms_attempts_try_again_in_a_few_seconds: 簡訊嘗試次數過多。請在幾秒鐘後再試。
+  number_phone_number_is_invalid: "+%{number} 電話號碼無效"
+  make_com_integration: Make.com 整合
+  zapier_integration: Zapier 整合
+  seamlessly_automate_your_document_signing_process_with_make_com: 使用 Make.com 無縫自動化您的文件簽署流程。
+  find_suitable_zapier_templates_to_automate_your_workflow: 尋找適合的 Zapier 範本以自動化您的工作流程。
+  get_started: 開始使用
+  click_here_to_learn_more_about_user_roles_and_permissions_html: '<a href="https://www.docuseal.com/resources/manage-users-and-roles" class="link" rel="noopener noreferrer nofollow" target="_blank">點擊此處</a>以了解更多關於使用者角色與權限的資訊。'
+  count_10_signature_request_emails_sent_this_month_upgrade_to_pro_to_send_unlimited_signature_request_email: '本月已發送 %{count} / 10 封簽署請求郵件。升級至專業版以無限發送簽署請求郵件。'
+  test_mode_emails_limit_will_be_reset_within_24_hours: 測試模式郵件額度將在 24 小時內重設。
+  on_a_scale_of_1_to_10_how_satisfied_are_you_with_the_docuseal_product_: 您對 DocuSeal 產品的滿意度如何（1 到 10 分）？
+  tell_us_more_about_your_experience: 請告訴我們更多您的使用體驗
+  extremely_dissatisfied: 極度不滿意
+  extremely_satisfied: 極度滿意
+  your_pro_plan_payment_is_overdue: 您的專業版方案付款已逾期。
+  click_here_to_update_your_payment_details_and_clear_the_invoice_to_ensure_uninterrupted_service_html: <a href="%{url}" class="link">點擊此處</a>更新您的付款資訊並結清帳單，以確保服務不中斷。
+  overdue_payment: 付款逾期
+  your_pro_plan_has_been_suspended_due_to_unpaid_invoices_you_can_update_your_payment_details_to_settle_the_invoice_and_continue_using_docuseal_or_cancel_your_subscription: 由於帳單未結清，您的專業版方案已被暫停。您可以更新付款資訊結清帳單以繼續使用 DocuSeal，或取消您的訂閱。
+  manage_subscription: 管理訂閱
+  submission_created_by_email_html: '<b>提交紀錄已建立</b>，由 %{email}'
+  submission_created_by_email_via_source_html: '<b>提交紀錄已建立</b>，由 %{email} 經由 %{source}'
+  submission_created_via_source_html: '<b>提交紀錄已建立</b>，經由 %{source}'
+  pro_user_seats_used: 專業版使用者席位已用
+  manage_plan: 管理方案
+  this_submission_has_multiple_signers_which_prevents_the_use_of_a_sharing_link_html: 此提交紀錄有多位簽署人，無法使用共用連結，因為不清楚哪個欄位對應哪位簽署人。若要解決此問題，請依照<a href="https://www.docuseal.com/resources/pre-filling-recipients" class="link font-bold" rel="noopener noreferrer nofollow" target="_blank">指南</a>定義預設簽署人詳細資訊。
+  welcome_to_docuseal: 歡迎使用 DocuSeal
+  start_a_quick_tour_to_learn_how_to_create_and_send_your_first_document: 開始快速導覽，了解如何建立並傳送您的第一份文件
+  start_tour: 開始導覽
+  name_a_z: 名稱 (A-Z)
+  recently_used: 最近使用
+  newest_first: 最新優先
+  none: 無
+  default_expiration: 預設過期時間
+  specified_date: 指定日期
+  one_day: 1 天
+  two_days: 2 天
+  three_days: 3 天
+  four_days: 4 天
+  five_days: 5 天
+  six_days: 6 天
+  seven_days: 7 天
+  eight_days: 8 天
+  nine_days: 9 天
+  ten_days: 10 天
+  two_weeks: 2 週
+  three_weeks: 3 週
+  four_weeks: 4 週
+  one_month: 1 個月
+  two_months: 2 個月
+  three_months: 3 個月
+  eu_data_residency: 歐盟資料駐留
+  please_enter_your_email_address_associated_with_the_completed_submission: 請輸入與已完成提交相關聯的電子郵件地址。
+  esignature_disclosure: 電子簽名揭露
+  share_link: 共用連結
+  enable_shared_link: 啟用共用連結
+  share_link_is_currently_disabled: 共用連結目前已停用
+  dynamic_template_with_variables_cannot_be_used_via_shared_link: 包含變數的動態範本無法透過共用連結使用
+  select_data_residency: 選擇資料駐留
+  account_name_has_invited_you_to_fill_and_sign_documents_online_effortlessly_with_a_secure_fast_and_user_friendly_digital_document_signing_solution: '%{account_name} 邀請您以安全、快速且易用的數位文件簽署方案，輕鬆線上填寫並簽署文件。'
+  review_or_download_completed_documents_fill_and_sign_documents_online_effortlessly_with_a_secure_fast_and_user_friendly_digital_document_signing_solution: 檢閱或下載已完成文件。以安全、快速且易用的數位文件簽署方案，輕鬆線上填寫並簽署文件。
+  link_form_fields: 連結表單欄位
+  at_least_one_field_must_be_displayed_in_the_form: 表單中必須顯示至少一個欄位。
+  this_template_has_multiple_parties_which_prevents_the_use_of_a_sharing_link: 此範本有多個方，無法使用共用連結，因為不清楚哪個欄位對應哪一方。若要解決此問題，請定義預設方詳細資訊。
+  events_log: 事件紀錄
+  succeeded: 成功
+  failed: 失敗
+  there_are_no_events: 沒有事件
+  resend: 重新發送
+  next_attempt_in_time_in_words: 下次嘗試於 %{time_in_words}
+  request_email_otp_verification_with_shared_link: 使用共用連結要求電子郵件 OTP 驗證
+  sms_rate_limit_exceeded: 簡訊速率限制已超出
+  invalid_phone_number: 無效的電話號碼
+  please_contact_the_requester_to_specify_your_phone_number_for_two_factor_authentication: 請聯絡請求者以指定您用於雙重認證的電話號碼。
+  we_sent_a_one_time_verification_code_to_your_email_address_please_enter_the_code_below_to_continue: 我們已發送一次性驗證碼至您的電子郵件地址。請在下方輸入代碼以繼續。
+  re_send_code: 重新發送代碼
+  email_verification: 電子郵件驗證
+  your_verification_code_to_access_the_name: '您存取「%{name}」的驗證碼：'
+  please_reply_to_this_email_if_you_didnt_request_this: 若您未要求此驗證，請回覆此郵件。
+  advanced_settings: 進階設定
+  text: 文字
+  code: 代碼
+  custom_html_emails: 自訂 HTML 郵件
+  connect_your_email_to_send_html_emails: 連線您的電子郵件以發送 HTML 郵件
+  connect_your_email_or_outlook_account_or_add_smtp_settings_to_send_custom_html_emails: 連線您的 Gmail 或 Outlook 帳號，或新增 SMTP 設定以發送自訂 HTML 郵件。
+  connect_gmail_or_outlook: 連線 Gmail 或 Outlook
+  connect_your_email_to_bulk_send: 連線您的電子郵件以進行批次發送
+  connect_your_email_or_outlook_account_or_add_smtp_settings_to_bulk_send: 連線您的 Gmail 或 Outlook 帳號，或新增 SMTP 設定以進行批次發送。
+  are_you_sure_you_want_to_add_recipients_without_sending_to_send_emails_it_requires_to_connect_gmail_or_outlook: 您確定要新增收件人而不發送嗎？若要發送郵件，需連線 Gmail 或 Outlook。
+  template_name_has_been_completed_by_submitters_html: '「<strong>{template.name}</strong>」已由 <strong>{submission.submitters}</strong> 完成'
+  please_check_the_copy_of_your_template_name_in_the_email_attachments_html: '請檢查電子郵件附件中您的「<strong>{template.name}</strong>」副本。'
+  you_have_been_invited_to_sign_the_template_name_html: '您已受邀簽署「<strong>{template.name}</strong>」。'
+  reveal_api_key: 顯示 API 金鑰
+  enter_your_password_to_reveal_the_api_key: 輸入您的密碼以顯示 API 金鑰
+  wrong_password: 密碼錯誤。
+  current_password: 目前密碼
+  dont_remember_your_current_password_click_here_to_reset_it_html: '忘記目前密碼？<label class="link" for="resend_password_button">點擊此處</label>以重設密碼。'
+  an_email_with_password_reset_instructions_has_been_sent: 已發送包含密碼重設說明的郵件。
+  api_key_access_code: API 金鑰存取代碼
+  use_otp_code_to_access_the_api_key_html: 使用 <b>%{code}</b> 代碼以存取 API 金鑰。
+  please_reply_to_this_email_if_you_dont_recognize_this_request: 若您不認識此請求，請回覆此郵件。
+  your_user_account_has_been_archived_contact_your_administrator_to_restore_access_to_your_account: 您的使用者帳號已封存。請聯絡您的管理員以還原帳號存取權。
+  your_email_could_not_be_reached_this_may_happen_if_there_was_a_typo_in_your_address_or_if_your_mailbox_is_not_available_please_contact_support_email_to_log_in: 無法連線至您的電子郵件。這可能是因為您的地址輸入錯誤或信箱無法使用。請聯絡 support@docuseal.com 以登入。
+  efficient_search_with_search_index: 使用搜尋索引進行高效搜尋
+  reindex: 重新索引
+  build_search_index: 建立搜尋索引
+  require_two_factor_authentication_2fa_with_an_authenticator_app_e_g_google_authenticator_authy_all_users_signing_documents_must_pass_the_second_factor_verification_using_a_secure_code_in_addition_to_their_password: 要求使用驗證器應用程式（例如 Google Authenticator、Authy）進行雙重認證（2FA）。所有簽署文件的使用者除了密碼外，必須通過安全代碼的第二重驗證。
+  add_a_unique_signature_id_and_timestamp_to_each_signature_for_audit_and_traceability_purposes_along_with_the_timestamp_part_of_docuseals_21_cfr_part_11_compliance_settings: "為每個簽名新增唯一的簽名 ID 與時間戳記，以供稽核與追蹤之用。此為 DocuSeal 21 CFR Part 11 合規設定的一部分。"
+  require_signer_to_provide_a_reason_for_signing_before_completing_their_signature_e_g_approvals_certifications_part_of_docuseals_21_cfr_part_11_compliance_settings: "要求簽署人在完成簽署前提供簽署原因（例如核准、認證）。此為 DocuSeal 21 CFR Part 11 合規設定的一部分。"
+  allow_signers_to_create_signatures_by_typing_their_name_instead_of_drawing_or_uploading_one: 允許簽署人透過鍵入姓名來建立簽名，而非繪製或上傳。
+  allow_signers_to_resubmit_forms_after_completion_useful_when_corrections_or_multiple_submissions_are_needed: 允許簽署人在完成後重新提交表單，在需要修正或進行多次提交時很有用。
+  allow_recipients_to_decline_signing_a_document_the_decline_reason_notification_will_be_sent_to_the_signature_requester: 允許收件人拒絕簽署文件。拒絕原因通知將會發送給簽署請求者。
+  allow_recipients_to_delegate_documents: 允許收件人透過電子郵件將文件委派給其他人。當原始收件人需要將文件轉交給授權簽署人時，這會很有用。
+  save_a_users_signature_and_automatically_pre_fill_it_in_future_signing_sessions: "儲存使用者的簽名並在未來的簽署工作階段中自動預填。"
+  make_document_download_links_expire_after_40_minutes_to_prevent_long_term_access_and_enhance_security: 讓文件下載連結在 40 分鐘後過期，以防止長期存取並增強安全性。
+  require_authentication_with_user_login_or_api_key_to_access_the_document_download_links: 要求使用使用者登入或 API 金鑰進行驗證才能存取文件下載連結。
+  combine_signed_documents_and_the_audit_log_into_a_single_pdf_file_for_easier_recordkeeping_and_compliance: 合併已簽署文件與稽核紀錄為單一 PDF 檔案，以便於紀錄與合規。
+  require_a_jwt_authorization_to_preview_embedded_forms_ensuring_only_authorized_users_can_view_them: 要求 JWT 授權才能預覽內嵌表單，確保僅有授權使用者可檢視。
+  make_all_newly_created_templates_private_to_their_creator_by_default: 預設將所有新建立的範本設為僅對建立者私有。
+  make_the_recipients_signing_order_always_enforced_so_that_the_second_signer_can_start_signing_their_part_only_after_the_first_signer_has_completed_signing: 始終強制執行收件人的簽署順序，以便第二位簽署人必須在第一位完成簽署後才能開始簽署。
+  the_file_is_missing_make_sure_you_have_access_to_it_on_google_drive: 檔案遺失。請確保您在 Google 雲端硬碟上擁有存取權。
+  connect_google_drive: 連線 Google 雲端硬碟
+  google_drive_has_been_connected: Google 雲端硬碟已連線
+  unable_to_identify_reset_your_password_to_sign_in: 無法識別身份。請重設密碼以登入。
+  desktop: 桌機
+  mobile: 行動裝置
+  tablet: 平板
+  reset_default: 重設為預設
+  send_signature_request_email: 發送簽署請求郵件
+  last_3_months: 過去 3 個月
+  last_6_months: 過去 6 個月
+  last_year: 去年
+  all_time: 所有時間
+  everyone: 所有人
+  daily: 每日
+  weekly: 每週
+  monthly: 每月
   api: API
-  embed: Embed
-  bulk: Bulk
-  invite: Invite
-  api_and_embed: API and Embed
-  period: Period
-  reports: Reports
-  completed_submissions: Completed submissions
-  sms: SMS
-  require_email_2fa_to_open: Require email 2FA to open
-  verification_required_refresh_the_page_and_pass_2fa: Verification required, refresh the page and pass 2FA.
-  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_email_html: The sender has requested two-factor authentication via a one-time password sent to your <b>%{email}</b> email.
-  please_contact_the_requester_to_specify_your_email_for_two_factor_authentication: Please contact the requester to specify your email for two-factor authentication.
-  rate_limit_exceeded: Rate limit exceeded
-  a_confirmation_email_has_been_sent_to_the_new_email_address: A confirmation email has been sent to the new email address.
-  email_address_is_awaiting_confirmation_follow_the_link_in_the_email_to_confirm: "%{email} email address is awaiting confirmation. Follow the link in the email to confirm."
-  please_confirm_your_email_address_using_the_link_below_: 'Please confirm your email address using the link below:'
-  confirm_email: Confirm email
-  please_verify_your_email_address_to_continue: Please verify your email address to continue.
-  verification_code_sent_click_link_or_enter_code: A verification code has been sent to your email. Click the email link or enter the one time code to confirm your email.
-  use_otp_code_to_verify_email_or_click_link_below_html: 'Use <b>%{code}</b> code to verify your email or click the link below:'
-  verify_your_email: Verify your email
-  your_email_has_been_confirmed: Your email has been confirmed.
-  invalid_or_expired_verification_code: Invalid or expired verification code.
-  didnt_receive_an_email: Did not receive an email?
-  unconfirmed: Unconfirmed
-  you_requested_to_reset_your_password_use_the_link_below_to_continue: You requested to reset your password. Use the link below to continue
-  if_you_didnt_request_this_you_can_ignore_this_email: "If you didn't request this, please ignore this email."
-  your_password_wont_change_until_you_open_the_link_above_and_set_a_new_one: "Your password won't change until you open the link above and set a new one."
-  too_many_requests_try_again_later: Too many requests, try again later.
-  bold: Bold
-  italic: Italic
-  underline: Underline
-  undo: Undo
-  redo: Redo
-  add_variable: Add variable
-  enter_a_url_or_variable_name: Enter a URL or variable name
-  new_token: New token
+  embed: 內嵌
+  bulk: 批次
+  invite: 邀請
+  api_and_embed: API 與內嵌
+  period: 期間
+  reports: 報告
+  completed_submissions: 已完成提交紀錄
+  sms: 簡訊
+  require_email_2fa_to_open: 開啟需電子郵件雙重認證
+  verification_required_refresh_the_page_and_pass_2fa: 需要驗證，請重新整理頁面並通過雙重認證。
+  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_email_html: 寄件人要求透過發送至您 <b>%{email}</b> 電子郵件的一次性密碼進行雙重認證。
+  please_contact_the_requester_to_specify_your_email_for_two_factor_authentication: 請聯絡請求者以指定您用於雙重認證的電子郵件。
+  rate_limit_exceeded: 速率限制已超出
+  a_confirmation_email_has_been_sent_to_the_new_email_address: 確認郵件已發送至新的電子郵件地址。
+  email_address_is_awaiting_confirmation_follow_the_link_in_the_email_to_confirm: "%{email} 電子郵件地址正在等待確認。請點擊郵件中的連結以確認。"
+  please_confirm_your_email_address_using_the_link_below_: '請使用下方連結確認您的電子郵件地址：'
+  confirm_email: 確認電子郵件
+  please_verify_your_email_address_to_continue: 請驗證您的電子郵件地址以繼續。
+  verification_code_sent_click_link_or_enter_code: 驗證碼已發送至您的電子郵件。請點擊郵件連結或輸入一次性代碼以確認。
+  use_otp_code_to_verify_email_or_click_link_below_html: '使用 <b>%{code}</b> 代碼以驗證您的電子郵件或點擊下方連結：'
+  verify_your_email: 驗證您的電子郵件
+  your_email_has_been_confirmed: 您的電子郵件已確認。
+  invalid_or_expired_verification_code: 驗證碼無效或已過期。
+  didnt_receive_an_email: 未收到郵件？
+  unconfirmed: 未確認
+  you_requested_to_reset_your_password_use_the_link_below_to_continue: 您要求重設密碼。使用下方連結以繼續
+  if_you_didnt_request_this_you_can_ignore_this_email: "若您未要求此操作，請忽略此郵件。"
+  your_password_wont_change_until_you_open_the_link_above_and_set_a_new_one: "在您開啟上述連結並設定新密碼之前，您的密碼不會更改。"
+  too_many_requests_try_again_later: 請求過多，請稍後再試。
+  bold: 粗體
+  italic: 斜體
+  underline: 底線
+  undo: 復原
+  redo: 重做
+  add_variable: 新增變數
+  enter_a_url_or_variable_name: 輸入網址或變數名稱
+  new_token: 新 Token
   token: Token
-  mcp_server: MCP Server
-  instructions: Instructions
   please_copy_the_token_below_now_as_it_wont_be_shown_again: Please copy the token below now, as it won't be shown again
   mcp_token_has_been_created: MCP token has been created.
   mcp_token_has_been_removed: MCP token has been removed.
@@ -983,7 +989,7 @@
     remove: 移除
     recipient_field: Recipient field
     spreadsheet_column: Spreadsheet column
-    select_field: Select Field
+    select_field: 下拉選單
     select_column: Select Column
     new_field_mapping: New Field Mapping
     total_entries: Total entries
